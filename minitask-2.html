@@ -7,19 +7,37 @@
     <style>
         body {
             padding: 0;
-            margin: 0;
+            margin-left: 20%;
         }
-        .days{
-            display: inline;
-            border-radius: 10px;
-            margin: 0;
-            padding-block: 10px;
        
+        .top {
+            display: inline-block;
+            background-color: goldenrod;
+            padding-block: 40px;
+        }
+
+        .top-1 {
+            padding-inline: 120px;
+        }
+        .top-2 {
+            padding-inline: 10px;
+        }
+        .top-3{
+            padding-inline: 80px;
+        }
+
+        .days{
+            display: inline-block;
+            border-radius: 10px;
+            margin-top: 20px;
+            padding-block: 10px;
+
         }
         p{ 
             margin: 0px;
             padding: 15px;
         }
+
         
         .date, .day{
             display: inline-block;
@@ -27,6 +45,7 @@
             text-align: center;
             font-weight: bold;
             font-size: 20px;
+            border: 1px black solid;
         }
         .date{
              margin-top: 20px;
@@ -53,9 +72,9 @@
 <body>
     <section class="calendar">
         <div class="month">
-            <!-- <div class="top">March 2026</div>
-            <div class="top"></div>
-            <div class="top"></div> -->
+            <div class="top top-1">March 2026</div>
+            <div class="top top-2">Ramadhan - Syawal 1447 Hijriah</div>
+            <div class="top top-3">03</div>
         </div>
         <div class="days green">
             <div class="day">Monday</div>

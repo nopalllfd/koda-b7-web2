@@ -1,0 +1,35 @@
+:root {
+    --primary-bg-color: #fc7a28;
+    --secondary-bg-color: #c2b0ff;
+}
+
+input[type="email"] {
+    border-color: red;
+}
+
+button[data-role="primary"] {
+    border: 2px blue solid;
+}
+
+*[data-status="error"]{
+    color: red;
+}
+
+ table tbody tr:nth-child(2n) {
+    background-color: var(--primary-bg-color);
+}
+ table tbody tr:nth-child(2n + 1) {
+    background-color: var(--secondary-bg-color);
+}
+
+li:nth-child(2n) {
+    background-color: burlywood;
+}
+
+.btn:hover {
+    cursor: pointer
+}
+
+article h2 ~ p::first-letter{
+    font-size: 100px;
+}
